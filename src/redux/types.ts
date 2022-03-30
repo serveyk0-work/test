@@ -1,0 +1,5 @@
+export const TYPES = Object.freeze({
+  SET_CURRENCY: 'SET_CURRENCY',
+  SET_CURRENT: 'SET_CURRENT',
+  SET_ERROR: 'SET_ERROR'
+})
