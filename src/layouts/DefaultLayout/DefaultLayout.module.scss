@@ -1,0 +1,19 @@
+.layout {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.inputWrap {
+  padding-top: 70px;
+  font-weight: bold;
+  font-family: sans-serif;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  @media screen and (max-width: 767px){
+    min-width: 100%;
+  }
+}
